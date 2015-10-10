@@ -1,28 +1,30 @@
-== README
+* Kino Live -- A Rails Application to track your Movie Collections
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  I wrote this as a weekend project. It was not really intended to run
+  "on the web" as such, but to be a privately-run web-based way to track
+  your movie collections on your own local network.
 
-Things you may want to cover:
+  It interfaces with online databases to pull and cache additional information
+  about your collections, as well as images and the like.
 
-* Ruby version
+** Requirements
+   Some of these requirements may seem a bit over-the-top for a "home database"
+   of movie collections, but I have a specific use-case in mind, my own. :p
+   Plus, this is a good time for me to play around with different technologies.
+   Please feel free to fork and modify as you see fit, and perhaps even do 
+   a pull request if you have something especially cool to add.
 
-* System dependencies
+*** MongoDB
+*** RabbitMQ
+*** ImageMagik
+** TODO Installation
+** TODO Running Kino Live
+** Notes
+   Notes are just my personal scratchpad for ideas and things I want to scribble
+   somewhere, so they are not really intended to be useful to anyone else, nor do
+   I promise everything at this point will be always up-to-date. This is just
+   my scratchpad afterall.
+** Copyright
+   Copyright (c) 2015 Fred Mitchell.
+   This is released under the MIT License.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
