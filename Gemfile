@@ -30,9 +30,11 @@ gem 'mongoid-paperclip' , require: 'mongoid_paperclip'
 
 # Messaging
 gem 'bunny'
+gem 'sneakers'
+gem 'json'
 
 group :development, :test do
-  gem "rspec"
+  gem "rspec-rails"
 
   gem 'pry'
   gem 'pry-byebug'
